@@ -3,23 +3,23 @@
 Cinema application is the web-application using user authentication, registration for users, 
 role access to specific resources, information receiving from the user, field values validation 
 from user and data transfer objects in response, having CRUD functionality of entities as user, 
-cinema hall, movie, ticket, movie session, order, shopping cart to execute according user request.
+cinema hall, movie, ticket, movie session, order, shopping cart to execute according user request.   
 Implementing the following functionality:
 
-POST: /register - all
-GET: /cinema-halls - user/admin
-POST: /cinema-halls - admin
-GET: /movies - user/admin
-POST: /movies - admin
-GET: /movie-sessions/available - user/admin
-GET: /movie-sessions/{id} - user/admin
-POST: /movie-sessions - admin
-PUT: /movie-sessions/{id} - admin
-DELETE: /movie-sessions/{id} - admin
-GET: /orders - user
-POST: /orders/complete - user
-PUT: /shopping-carts/movie-sessions - user
-GET: /shopping-carts/by-user - user
+POST: /register - all  
+GET: /cinema-halls - user/admin  
+POST: /cinema-halls - admin  
+GET: /movies - user/admin  
+POST: /movies - admin  
+GET: /movie-sessions/available - user/admin  
+GET: /movie-sessions/{id} - user/admin  
+POST: /movie-sessions - admin  
+PUT: /movie-sessions/{id} - admin  
+DELETE: /movie-sessions/{id} - admin  
+GET: /orders - user  
+POST: /orders/complete - user  
+PUT: /shopping-carts/movie-sessions - user  
+GET: /shopping-carts/by-user - user  
 GET: /users/by-email - admin
 
 ## Installing
